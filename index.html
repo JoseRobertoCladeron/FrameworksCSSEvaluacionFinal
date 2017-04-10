@@ -5,8 +5,11 @@
     <meta name='viewport' content='width=device-width initial-scale=1'>
     <meta name='mobile-web-app-capable' content='yes'>
     <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href="fonts/glyphicons-halflings-regular.ttf">
     <link rel='stylesheet' href='css/estilos.css'>
+    
     <title>Evaluacion Final</title>
+    <script src="https://use.fontawesome.com/430769bee1.js"></script>
   </head>
   
  
@@ -14,19 +17,24 @@
   
     <header>
      <div class="container">
-      <div class="row">
-        <div class="ga col-md-3">
+      <div class="row bottom-column">
+        <div class="logo col-md-3">
        	 <img src="img/logo.jpg" class="img-responsive center-block" alt="logo musica">     
         </div> <!-- /.col-md-3 -->
-        <div class="gg col-md-offset-7 col-md-2">
-         <ul class="list-unstyled">
-           <li><a href="#" ><img src="img/redes.jpg" class="img-responsive center-block" alt="logo musica"> </a></li>
+        
+        <div class="pull-down redes col-md-offset-6 col-md-3">
+         <ul class=" list-unstyled list-inline text-center">
+           <li><a href="#"><img src="img/IconFace.png" class="img-responsive center-block" alt="Icono Facebook"></a></li>
+           <li><a href="#"><img src="img/IconInstegram.png" class="img-responsive center-block" alt="Icono Instegram"></a></li>
+           <li><a href="#"><img src="img/IconLinkedin.png" class="img-responsive center-block" alt="Icono Linkedin"></a></li>
+           <li><a href="#"><img src="img/IconTwitter.png" class="img-responsive center-block" alt="Icono Twitter"></a></li>
+           <li><a href="#"><img src="img/IconPinterest.png" class="img-responsive center-block" alt="Icono Pinterest"></a></li>
          </ul>   
         </div> <!-- /.col-md-2 -->
       </div>
     </header>
-    
     <div class="container">
+    <br>
      <nav class="navbar navbar-default">
          <ul class="nav navbar-nav navbar-justify">
            <li class="active"><a href="#">Inicio</a></li>
@@ -41,10 +49,74 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-                    <p>lorem</p>      
-        </div> <!-- /.col-md-12 -->
-      </div>
+        <div class="col-md-8"> <!--Post-->
+        	<div class="row">
+                 <div class="col-md-8">
+                 <h3>Tributo a Te Beatles</h3>
+             		<p>Grupo británico de música rock y pop, el más admirado y popular de la década de 1960 y uno de los más influyentes en la historia de la música moderna. Si el gran Elvis Presley dominó los años 50 como rey del rock and roll, correspondió a The Beatles, un grupo también rockero en sus raíces.</p>
+              	 </div>
+                 <div class="col-md-4">
+             		<img src="img/beatles.jpg" class="img-responsive center-block" alt="beatles">
+              	 </div>
+            </div>
+            <br>
+            <div class="row">    
+                 <div class="col-xs-2 col-sm-2 text-center">
+                 	<i class="fa fa-user fa-4x"></i>
+              	 </div>
+                 <div class=" col-xs-10 col-sm-10">
+             		<form>
+                        <div class="form-group text-center" >
+                          <textarea class="form-control" rows="2" id="comment" placeholder="Comentario..."></textarea>
+                        </div>
+  					</form>
+              	 </div>
+                 
+                 <div class="col-md-4">
+             		<img src="img/planetas.jpg" class="img-responsive center-block" alt="beatles">
+              	 </div>
+                  <div class="col-md-8">
+                 <h3>Navegacion de los planetas</h3>
+             		<p>Los cuerpos que giran en torno a otras estrellas se denominan generalmente planetas extrasolares o exoplanetas. Las condiciones que han de cumplir para ser considerados como tales son las mismas que señala la definición de planeta para el sistema solar,  si bien giran en torno a sus respectivas estrellas.</p>
+              	 </div>
+                 
+            </div>
+            <br>
+            <div class="row">    
+                 <div class="col-xs-2 col-sm-2 text-center">
+                 	<i class="fa fa-user fa-4x"></i>
+              	 </div>
+                 <div class=" col-xs-10 col-sm-10">
+             		<form>
+                        <div class="form-group text-center" >
+                          <textarea class="form-control" rows="2" id="comment" placeholder="Comentario..."></textarea>
+                        </div>
+  					</form>
+              	 </div>
+                 
+            </div> <!-- /.1er Inner row-->  
+        </div> <!-- /.col-md-8 Post-->
+        
+       	 <div class="col-md-4 visible-lg"> <!--Search-->
+        <div class="input-group">
+          <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-search"></i></span>
+          <input type="text" class="form-control" placeholder="Search" aria-describedby="sizing-addon2">
+        </div>
+        <p>Buscar...</p>
+        
+        <div class="list-group">
+          <a href="#" class="list-group-item">Lista Opcion 1</a>
+          <a href="#" class="list-group-item">Lista Opcion 2</a>
+          <a href="#" class="list-group-item">Lista Opcion 3</a>
+          <a href="#" class="list-group-item">Lista Opcion 4</a>
+          <a href="#" class="list-group-item">Lista Opcion 5</a>
+          <a href="#" class="list-group-item">Lista Opcion 6</a>
+        </div>
+        
+       </div> <!-- /.col-md-4 Search-->
+
+       </div>   <!-- /row-->
+      </div> <!-- /container-->
 
 
     <script src="js/jquery.js"></script>
