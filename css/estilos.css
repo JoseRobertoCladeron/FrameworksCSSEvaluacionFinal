@@ -1,0 +1,22 @@
+*{
+	margin:0px;
+	padding:0px;
+	}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar li{
+	margin:0 20px;}
+
+.navbar {
+  text-align: center;
+}
+
+.ga{
+	background-color:pink;}
+.gg{
+	background-color:orange;}
