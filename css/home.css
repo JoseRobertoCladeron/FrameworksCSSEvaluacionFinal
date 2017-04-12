@@ -1,11 +1,15 @@
-
+body{
+	background: url(../img/comida.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .tema{
 	border-right:1px solid black;}
 
-img{
-  max-height: 129px;
-}
+
 
 h1{
 	font-size:3em;}
@@ -13,9 +17,30 @@ h1{
 .slogan{
 	font-size:1.2em;}	
 
-.gg{
-	background-color:pink;
+.cont{
+	background-color: rgba(198,226,255,.8);
 	border-top:1px solid black;}	
 	
 .red{
 	border:1px solid red;}	
+	
+.fav{
+	background-color: rgba(28,134,238,.7);}
+
+.hist{
+	background-color: #F3E2A9;}
+	
+.historial{
+    list-style-type:none;
+}	
+
+.bb {
+	border:1px solid red;
+    /* easy rounded corners for modern browsers */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.coment{
+	margin-top:5px;}
